@@ -1,6 +1,10 @@
 # Yomichan/Yomitan Dictionary Stats
 
-This is a collection of statistics about the dictionaries available for [Yomichan](https://foosoft.net/projects/yomichan/). The data is generated on the dictionaries that I have installed on my Yomitan installation. You can run the script yourself by pasting the contents of [generateStats.js](./generateStats.js) into your browser's console while on the Yomitan options page.
+This is a collection of statistics about the dictionaries available for [Yomichan](https://foosoft.net/projects/yomichan/) so that you can see the description/metadata available, and see the number of entries in each dictionary to get an idea of how extensive their coverage is.
+
+The data is generated on the dictionaries that I have installed on my Yomitan installation. You can run the script yourself by pasting the contents of [generateStats.js](./generateStats.js) into your browser's console while on the Yomitan options page.
+
+## Dictionaries
 
 | Title | Entry Count | Information |
 | ------ | ----------- | ----------- |
