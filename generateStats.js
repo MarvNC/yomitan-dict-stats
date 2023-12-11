@@ -41,7 +41,7 @@ const entryTypes = ['terms', 'termMeta', 'kanji', 'kanjiMeta'];
   const dicts = await getAllDicts();
   const output = [];
   for (let dict of dicts) {
-    const { title, revision, author, url, description, attribution } = dict;
+    const { title, author, url, description, attribution } = dict;
 
     let entryCount = 0;
     for (const entryType of entryTypes) {
@@ -49,24 +49,32 @@ const entryTypes = ['terms', 'termMeta', 'kanji', 'kanjiMeta'];
     }
 
     output.push({
-      title,
-      revision,
-      author,
-      url,
-      description,
-      attribution,
+      title: sanitizeForMarkdown(title),
+      author: sanitizeForMarkdown(author),
+      url: sanitizeForMarkdown(url),
+      description: sanitizeForMarkdown(description),
+      attribution: sanitizeForMarkdown(attribution),
       entryCount,
     });
   }
   // export to md table
-  let md = '| Title | Revision | Author | URL | Description | Attribution | Entry Count |\n';
-  md += '| ----- | -------- | ------ | --- | ----------- | ----------- | ----------- |\n';
+  let md = '| Title | Entry Count | Information |\n';
+  md += '| ------ | ----------- | ----------- |\n';
   for (const row of output) {
-    let line = `| ${row.title ?? ''} | ${row.revision ?? ''} | ${row.author ?? ''} | ${
-      row.url ?? ''
-    } | ${row.description ?? ''} | ${row.attribution ?? ''} | ${row.entryCount ?? ''} |`;
-    line = line.replace(/\n/g, '<br />');
+    let line = `| ${row.title} | ${row.entryCount} |`;
+    if (row.author) line += ` **Author**: ${row.author} <br />`;
+    if (row.url) line += ` **URL**: ${row.url} <br />`;
+    if (row.attribution) line += ` **Attribution**: ${row.attribution} <br />`;
+    if (row.description) line += ` **Description**: ${row.description} <br />`;
+    line += ' |';
     md += line + '\n';
   }
   console.log(md);
 })();
+
+function sanitizeForMarkdown(str) {
+  if (!str) return '';
+  str = str.replace(/\n/g, '<br />');
+  str = str.replace(/\|/g, '\\|');
+  return str;
+}
