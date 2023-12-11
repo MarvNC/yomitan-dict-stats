@@ -41,7 +41,7 @@ const entryTypes = ['terms', 'termMeta', 'kanji', 'kanjiMeta'];
   const dicts = await getAllDicts();
   const output = [];
   for (let dict of dicts) {
-    const { title, author, url, description, attribution } = dict;
+    const { title, author, revision, url, description, attribution } = dict;
 
     let entryCount = 0;
     for (const entryType of entryTypes) {
@@ -51,6 +51,7 @@ const entryTypes = ['terms', 'termMeta', 'kanji', 'kanjiMeta'];
     output.push({
       title: sanitizeForMarkdown(title),
       author: sanitizeForMarkdown(author),
+      revision: sanitizeForMarkdown(revision),
       url: sanitizeForMarkdown(url),
       description: sanitizeForMarkdown(description),
       attribution: sanitizeForMarkdown(attribution),
@@ -63,9 +64,10 @@ const entryTypes = ['terms', 'termMeta', 'kanji', 'kanjiMeta'];
   for (const row of output) {
     let line = `| ${row.title} | ${row.entryCount} |`;
     if (row.author) line += ` **Author**: ${row.author} <br />`;
+    if (row.revision) line += ` **Revision**: ${row.revision} <br />`;
     if (row.url) line += ` **URL**: ${row.url} <br />`;
     if (row.attribution) line += ` **Attribution**: ${row.attribution} <br />`;
-    if (row.description) line += ` **Description**: ${row.description} <br />`;
+    if (row.description) line += ` **Description**:<br /> ${row.description} <br />`;
     line += ' |';
     md += line + '\n';
   }
@@ -74,6 +76,7 @@ const entryTypes = ['terms', 'termMeta', 'kanji', 'kanjiMeta'];
 
 function sanitizeForMarkdown(str) {
   if (!str) return '';
+  if(typeof str !== 'string') return str;
   str = str.replace(/\n/g, '<br />');
   str = str.replace(/\|/g, '\\|');
   return str;
