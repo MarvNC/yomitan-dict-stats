@@ -15,6 +15,7 @@ Yomitan options page.
 - [Dictionaries](#dictionaries)
 - [Japanese](#japanese)
   - [Japanese Frequency](#japanese-frequency)
+  - [Japanese Name Dictionaries](#japanese-name-dictionaries)
   - [Japanese Bilingual Dictionaries](#japanese-bilingual-dictionaries)
   - [Japanese Grammar Dictionaries](#japanese-grammar-dictionaries)
   - [Japanese Kanji Frequency Dictionaries](#japanese-kanji-frequency-dictionaries)
@@ -46,19 +47,24 @@ Yomitan options page.
 | jpDicts (206k) | 206621 | **Revision**: frequency_jpDicts <br /> **Description**:<br /> Frequency list made from Japanese dictionary (ハイブリッド新辞林 v2, 故事ことわざの辞典, 漢字源, 精選版 日本国語大辞典, 新明解四字熟語辞典, 学研 四字熟語辞典, 実用日本語表現辞典,, 旺文社国語辞典 第十一版 画像無し, 大辞林 第三版, デジタル大辞泉, 岩波国語辞典 第六版, 広辞苑 第六版) <br /> |
 | Narou Freq | 49269 | **Revision**: frequency1 <br /> |
 | Netflix | 129141 | **Revision**: netflix.frequency <br /> |
-| Novels | 269987 | **Revision**: yyyy <br /> |
 | VN Freq | 35058 | **Revision**: frequency1 <br /> |
 | Wikipedia | 853593 | **Author**: Thermospore <br /> **Revision**: frequency_v2 <br /> **URL**: https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Japanese2015_10000 <br /> **Description**:<br /> v0.1: Only change is the shortened title + addition of metadata<br />v1: Reserved version; never completed<br />v2: Moved to a much larger dataset. List goes up to about 850k now... <br /> |
 | 国語辞典 | 156452 | **Revision**: kokugojiten_freq <br /> |
 | VNs Freq | 85374 | **Revision**: frequency2019 <br /> |
 | Conversation Corpus | 29528 | **Revision**: CEJC_ver202209_2023-06-22T11:04:44.335323+00:00 <br /> **URL**: https://www2.ninjal.ac.jp/conversation/cejc/cejc-wc.html <br /> **Description**:<br /> Converted programmatically from the dataset. See repo at https://github.com/forsakeninfinity/CEJC_yomichan_freq_dict <br /> |
 
-### Japanese Bilingual Dictionaries
+### Japanese Name Dictionaries
 
 <!-- prettier-ignore -->
 | Title | Entry Count | Information |
 | ------ | ----------- | ----------- |
 | JMnedict | 666044 | **Author**: yomitan-import <br /> **Revision**: JMnedict.2023-11-24 <br /> **URL**: https://github.com/themoeway/yomitan-import <br /> **Attribution**: This publication has included material from the JMdict (EDICT, etc.) dictionary files in accordance with the licence provisions of the Electronic Dictionaries Research Group. See http://www.edrdg.org/ <br /> |
+
+### Japanese Bilingual Dictionaries
+
+<!-- prettier-ignore -->
+| Title | Entry Count | Information |
+| ------ | ----------- | ----------- |
 | Jitendex [2023-11-22] | 290094 | **Author**: stephenmk <br /> **Revision**: 3.0 <br /> **URL**: jitendex.org <br /> **Attribution**: © CC BY-SA 4.0 Stephen Kraus 2023<br /><br />You are free to use, modify, and redistribute Jitendex files under the terms of the Creative Commons Attribution-ShareAlike License (V4.0)<br /><br />Jitendex includes material from several copyrighted sources in compliance with the terms and conditions of those projects.<br /><br />• JMdict (EDICT, etc.) dictionary data is provided by the Electronic Dictionaries Research Group. Visit edrdg.org for more information.<br />• Example sentences (Japanese and English) are provided by Tatoeba (https://tatoeba.org/). This data is licensed CC BY 2.0 FR.<br />• Positional information for the furigana displayed in headwords is provided by the JmdictFurigana project. This data is distributed under a Creative Commons Attribution-ShareAlike License. <br /> |
 | NEW斎藤和英大辞典 | 47504 | **Revision**: saitoje.2023.03.26.1 <br /> **Description**:<br /> Tip: use custom CSS to control how many example sentences are displayed<br /><br />[data-dictionary="NEW斎藤和英大辞典"] ul.gloss-sc-ul>li:nth-child(n+5) {<br />  display: none;<br />} <br /> |
 | 新和英 | 152202 | **Revision**: Shinwaei1 <br /> |
