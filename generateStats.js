@@ -67,7 +67,8 @@ const entryTypes = ['terms', 'termMeta', 'kanji', 'kanjiMeta'];
     if (row.revision) line += ` **Revision**: ${row.revision} <br />`;
     if (row.url) line += ` **URL**: ${row.url} <br />`;
     if (row.attribution) line += ` **Attribution**: ${row.attribution} <br />`;
-    if (row.description) line += ` **Description**:<br /> ${row.description} <br />`;
+    if (row.description)
+      line += ` **Description**:<br /> ${row.description} <br />`;
     line += ' |';
     md += line + '\n';
   }
@@ -76,7 +77,7 @@ const entryTypes = ['terms', 'termMeta', 'kanji', 'kanjiMeta'];
 
 function sanitizeForMarkdown(str) {
   if (!str) return '';
-  if(typeof str !== 'string') return str;
+  if (typeof str !== 'string') return str;
   str = str.replace(/\n/g, '<br />');
   str = str.replace(/\|/g, '\\|');
   return str;
