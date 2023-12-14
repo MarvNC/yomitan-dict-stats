@@ -20,7 +20,7 @@ Yomitan options page.
   - [Japanese Kanji Frequency Dictionaries](#japanese-kanji-frequency-dictionaries)
   - [Japanese Kanji Dictionaries](#japanese-kanji-dictionaries)
   - [Japanese Term Dictionaries](#japanese-term-dictionaries)
-  - [Japanese Pitch Dictionaries](#japanese-pitch-dictionaries)
+  - [Japanese Pitch Accent Dictionaries](#japanese-pitch-accent-dictionaries)
 - [Cantonese Dictionaries](#cantonese-dictionaries)
   - [Cantonese Term Dictionaries](#cantonese-term-dictionaries)
 - [Mandarin Chinese](#mandarin-chinese)
@@ -132,14 +132,16 @@ Yomitan options page.
 | 日本語俗語辞書 | 4354 | **Author**: Kartoffel <br /> **Revision**: 1 <br /> **Attribution**: http://zokugo-dict.com/ <br /> **Description**:<br /> I'll only say anything in the presence of my advocate <br /> |
 | 複合語起源 | 222 | **Author**: 名無し, 名無し, seanblue, Marv <br /> **Revision**: 複合語起源_2022-08-26T22:38:51.046Z <br /> **URL**: https://github.com/MarvNC/yomichan-dictionaries <br /> **Description**:<br /> Sources:<br />https://jbbs.shitaraba.net/bbs/read.cgi/study/10958/1299762655<br />https://academy6.5ch.net/test/read.cgi/gengo/1228873581<br />https://community.wanikani.com/t/special-kanji-words-derived-from-other-words/35655<br /><br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
 
-### Japanese Pitch Dictionaries
+### Japanese Pitch Accent Dictionaries
 
 <!-- prettier-ignore -->
 | Title | Entry Count | Information |
 | ------ | ----------- | ----------- |
-| 大辞林第四版 | 152193 | **Author**: コツ <br /> **Revision**: pitch_1.0.1.1 <br /> **URL**: https://kotu.io <br /> **Description**:<br /> For accurate pronunciation (vowel elongation etc..) and comparisons across multiple modern and historical dictionaries visit the linked URL. <br /> |
-| 大辞泉 | 88089 | **Author**: コツ <br /> **Revision**: pitch_1.0.0.1 <br /> **URL**: https://kotu.io <br /> **Description**:<br /> For accurate pronunciation (vowel elongation etc..) and comparisons across multiple modern and historical dictionaries visit the linked URL. <br /> |
 | NHK | 73100 | **Author**: コツ <br /> **Revision**: pitch_1.0.1.1 <br /> **URL**: https://kotu.io <br /> **Description**:<br /> For accurate pronunciation (vowel elongation etc..) and comparisons across multiple modern and historical dictionaries visit the linked URL. <br /> |
+| 大辞泉 | 88089 | **Author**: コツ <br /> **Revision**: pitch_1.0.0.1 <br /> **URL**: https://kotu.io <br /> **Description**:<br /> For accurate pronunciation (vowel elongation etc..) and comparisons across multiple modern and historical dictionaries visit the linked URL. <br /> |
+| 新明解第八版 | 75978 | **Author**: コツ <br /> **Revision**: pitch_1.0.2.1 <br /> **URL**: https://kotu.io <br /> **Description**:<br /> For accurate pronunciation (vowel elongation etc..) and comparisons across multiple modern and historical dictionaries visit the linked URL. <br /> |
+| 大辞林第四版 | 152193 | **Author**: コツ <br /> **Revision**: pitch_1.0.1.1 <br /> **URL**: https://kotu.io <br /> **Description**:<br /> For accurate pronunciation (vowel elongation etc..) and comparisons across multiple modern and historical dictionaries visit the linked URL. <br /> |
+| 三省堂国語辞典第八番 | 77630 | **Author**: コツ <br /> **Revision**: pitch_1.0.1.1 <br /> **URL**: https://kotu.io <br /> **Description**:<br /> For accurate pronunciation (vowel elongation etc..) and comparisons across multiple modern and historical dictionaries visit the linked URL. <br /> |
 
 ## Cantonese Dictionaries
 
