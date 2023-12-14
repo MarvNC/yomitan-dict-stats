@@ -15,6 +15,18 @@ Yomitan options page.
 - [Dictionaries](#dictionaries)
 - [Japanese](#japanese)
   - [Japanese Frequency](#japanese-frequency)
+  - [Japanese Bilingual Dictionaries](#japanese-bilingual-dictionaries)
+  - [Japanese Grammar Dictionaries](#japanese-grammar-dictionaries)
+  - [Japanese Kanji Frequency Dictionaries](#japanese-kanji-frequency-dictionaries)
+  - [Japanese Kanji Dictionaries](#japanese-kanji-dictionaries)
+  - [Japanese Term Dictionaries](#japanese-term-dictionaries)
+  - [Japanese Pitch Dictionaries](#japanese-pitch-dictionaries)
+- [Cantonese Dictionaries](#cantonese-dictionaries)
+  - [Cantonese Term Dictionaries](#cantonese-term-dictionaries)
+- [Mandarin Chinese](#mandarin-chinese)
+  - [Mandarin Chinese Frequency Dictionaries](#mandarin-chinese-frequency-dictionaries)
+  - [Mandarin Chinese Hanzi Dictionaries](#mandarin-chinese-hanzi-dictionaries)
+  - [Mandarin Chinese Term Dictionaries](#mandarin-chinese-term-dictionaries)
 
 ## Japanese
 
@@ -29,20 +41,54 @@ Yomitan options page.
 | JPDB | 515231 | **Author**: jpdb, Marv <br /> **Revision**: JPDB_by-frequency-global_2022-05-10T03:27:02.930Z <br /> **URL**: https://jpdb.io <br /> **Description**:<br /> Generated via userscript: https://github.com/MarvNC/jpdb-freq-list<br />    ㋕ is used to indicate a frequency for a hiragana reading.<br />    ❌ is used to indicate that a term does not appear in the JPDB corpus. <br /> |
 | Novels | 269987 | **Revision**: yyyy <br /> |
 | Youtube | 187053 | **Revision**: frequency3 <br /> |
+| 青空文庫熟語 | 169623 | **Author**: vtrm, Marv <br /> **Revision**: aozoraBunko_2022-08-26T05:50:26.124Z <br /> **URL**: https://www.aozora.gr.jp <br /> **Attribution**: 青空文庫 <br /> **Description**:<br /> Rank-based jukugo frequencies made from Aozora Bunko<br />Data from https://vtrm.net/japanese/kanji-jukugo-frequency/en<br />Created with https://github.com/MarvNC/yomichan-dictionaries<br />Caveats:<br />Jukugo which are absent from the dictionary entries are not reported in the data since the software has no way of knowing whether it encountered a legitimate jukugo or merely a juxtaposition of several words (e.g. when two or more nouns are combined together to form a new noun, or when a jukugo is used as an adverb).<br /><br />Sometimes a compound word can be either a Sino-Japanese jukugo read in on’yomi, or a native Japanese word read in kun’yomi and sometimes accompanied with okurigana. For example, 蹌踉 can either be a taru-adjective or to-adverb of Chinese origin read そうろう, or the root of a Japanese verb whose dictionary form is 蹌踉めく and which is read よろめく. Keep in mind that the program I wrote doesn’t parse kana and doesn’t try to disambiguate kanji readings. Consequently, occurrences of 蹌踉 read そうろう and 蹌踉 read よろ aren’t distinguished and are grouped together in the statistics. So if you look at the data for kanji 蹌, the line corresponding to 蹌踉 refers to all occurrences of 蹌踉 in the corpus, whatever their respective readings is.<br /><br />Due to the parsing method used and to the imperfect nature of Chinese characters word segmentation algorithms, there is a small (negligible but non-zero) number of false positives and missed out words. <br /> |
+| Anime & J-drama | 99999 | **Revision**: anime.frequency <br /> |
+| jpDicts (206k) | 206621 | **Revision**: frequency_jpDicts <br /> **Description**:<br /> Frequency list made from Japanese dictionary (ハイブリッド新辞林 v2, 故事ことわざの辞典, 漢字源, 精選版 日本国語大辞典, 新明解四字熟語辞典, 学研 四字熟語辞典, 実用日本語表現辞典,, 旺文社国語辞典 第十一版 画像無し, 大辞林 第三版, デジタル大辞泉, 岩波国語辞典 第六版, 広辞苑 第六版) <br /> |
+| Narou Freq | 49269 | **Revision**: frequency1 <br /> |
+| Netflix | 129141 | **Revision**: netflix.frequency <br /> |
+| Novels | 269987 | **Revision**: yyyy <br /> |
+| VN Freq | 35058 | **Revision**: frequency1 <br /> |
+| Wikipedia | 853593 | **Author**: Thermospore <br /> **Revision**: frequency_v2 <br /> **URL**: https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Japanese2015_10000 <br /> **Description**:<br /> v0.1: Only change is the shortened title + addition of metadata<br />v1: Reserved version; never completed<br />v2: Moved to a much larger dataset. List goes up to about 850k now... <br /> |
+| 国語辞典 | 156452 | **Revision**: kokugojiten_freq <br /> |
+| VNs Freq | 85374 | **Revision**: frequency2019 <br /> |
+| Conversation Corpus | 29528 | **Revision**: CEJC_ver202209_2023-06-22T11:04:44.335323+00:00 <br /> **URL**: https://www2.ninjal.ac.jp/conversation/cejc/cejc-wc.html <br /> **Description**:<br /> Converted programmatically from the dataset. See repo at https://github.com/forsakeninfinity/CEJC_yomichan_freq_dict <br /> |
+
+### Japanese Bilingual Dictionaries
+
+<!-- prettier-ignore -->
+| Title | Entry Count | Information |
+| ------ | ----------- | ----------- |
 | JMnedict | 666044 | **Author**: yomitan-import <br /> **Revision**: JMnedict.2023-11-24 <br /> **URL**: https://github.com/themoeway/yomitan-import <br /> **Attribution**: This publication has included material from the JMdict (EDICT, etc.) dictionary files in accordance with the licence provisions of the Electronic Dictionaries Research Group. See http://www.edrdg.org/ <br /> |
 | Jitendex [2023-11-22] | 290094 | **Author**: stephenmk <br /> **Revision**: 3.0 <br /> **URL**: jitendex.org <br /> **Attribution**: © CC BY-SA 4.0 Stephen Kraus 2023<br /><br />You are free to use, modify, and redistribute Jitendex files under the terms of the Creative Commons Attribution-ShareAlike License (V4.0)<br /><br />Jitendex includes material from several copyrighted sources in compliance with the terms and conditions of those projects.<br /><br />• JMdict (EDICT, etc.) dictionary data is provided by the Electronic Dictionaries Research Group. Visit edrdg.org for more information.<br />• Example sentences (Japanese and English) are provided by Tatoeba (https://tatoeba.org/). This data is licensed CC BY 2.0 FR.<br />• Positional information for the furigana displayed in headwords is provided by the JmdictFurigana project. This data is distributed under a Creative Commons Attribution-ShareAlike License. <br /> |
 | NEW斎藤和英大辞典 | 47504 | **Revision**: saitoje.2023.03.26.1 <br /> **Description**:<br /> Tip: use custom CSS to control how many example sentences are displayed<br /><br />[data-dictionary="NEW斎藤和英大辞典"] ul.gloss-sc-ul>li:nth-child(n+5) {<br />  display: none;<br />} <br /> |
 | 新和英 | 152202 | **Revision**: Shinwaei1 <br /> |
-| 青空文庫熟語 | 169623 | **Author**: vtrm, Marv <br /> **Revision**: aozoraBunko_2022-08-26T05:50:26.124Z <br /> **URL**: https://www.aozora.gr.jp <br /> **Attribution**: 青空文庫 <br /> **Description**:<br /> Rank-based jukugo frequencies made from Aozora Bunko<br />Data from https://vtrm.net/japanese/kanji-jukugo-frequency/en<br />Created with https://github.com/MarvNC/yomichan-dictionaries<br />Caveats:<br />Jukugo which are absent from the dictionary entries are not reported in the data since the software has no way of knowing whether it encountered a legitimate jukugo or merely a juxtaposition of several words (e.g. when two or more nouns are combined together to form a new noun, or when a jukugo is used as an adverb).<br /><br />Sometimes a compound word can be either a Sino-Japanese jukugo read in on’yomi, or a native Japanese word read in kun’yomi and sometimes accompanied with okurigana. For example, 蹌踉 can either be a taru-adjective or to-adverb of Chinese origin read そうろう, or the root of a Japanese verb whose dictionary form is 蹌踉めく and which is read よろめく. Keep in mind that the program I wrote doesn’t parse kana and doesn’t try to disambiguate kanji readings. Consequently, occurrences of 蹌踉 read そうろう and 蹌踉 read よろ aren’t distinguished and are grouped together in the statistics. So if you look at the data for kanji 蹌, the line corresponding to 蹌踉 refers to all occurrences of 蹌踉 in the corpus, whatever their respective readings is.<br /><br />Due to the parsing method used and to the imperfect nature of Chinese characters word segmentation algorithms, there is a small (negligible but non-zero) number of false positives and missed out words. <br /> |
+
+### Japanese Grammar Dictionaries
+
+<!-- prettier-ignore -->
+| Title | Entry Count | Information |
+| ------ | ----------- | ----------- |
 | 日本語文法辞典(全集) | 535 | **Author**: nihongobongo <br /> **Revision**: DOJG_v1.01;2022-04-30;better formatting <br /> **Attribution**: DOJG <br /> **Description**:<br /> DOJG-allVols <br /> |
 | 絵でわかる日本語 | 1248 | **Author**: nihongobongo <br /> **Revision**: edewakaru_v1.03; 2022-09-01 <br /> **URL**: https://github.com/aiko-tanaka/Grammar-Dictionaries/ <br /> **Attribution**: https://www.edewakaru.com/archives/cat_179055.html <br /> **Description**:<br /> 日本語文法・自動詞他動詞・口語形・間違えやすい日本語・擬音語・擬態語などを「絵」で説明します。日本語を勉強している人のためのブログです. <br /> |
 | 毎日のんびり日本語教師 | 1479 | **Author**: nihongobongo <br /> **Revision**: nihongo_no_sensei_v_1.03 ;2022-04-30;embedded urls, p of speech indicators(N5-N0) <br /> **URL**: https://nihongonosensei.net/?page_id=10246 <br /> **Attribution**: nihongo_no_sensei <br /> **Description**:<br /> term bank 1 contains N1, bank 2 N2, etc...中国の大学で日本語教師をしています。日本語教育能力検定試験の解説、対策講座、中国での生活や授業、日本語の文法の説明をしています。 <br /> |
 | どんなときどう使う 日本語表現文型辞典 | 1082 | **Author**: nihongobongo <br /> **Revision**: donna_v1.04;2022-04-30(completed arrow internal links) <br /> **URL**: https://itazuraneko.neocities.org/grammar/donnatoki.html <br /> **Attribution**: itazuraneko <br /> **Description**:<br /> A well regarded grammar reference covering grammar points through N5 to N1 of the 日本語能力試験. <br /> |
 | JLPT文法解説まとめ | 628 | **Author**: nihongobongo <br /> **Revision**: nihongo_kyoshi_v1.03; 2022-05-27; p.o.s. info <br /> **URL**: https://nihongokyoshi-net.com/jlpt-grammars/ <br /> **Attribution**: 日本語NET <br /> **Description**:<br /> このページでは、JLPTに登場する文型を紹介しています。JLPTのレベル毎に５０音順で並べています。<br /><br /> how to use:https://github.com/aiko-tanaka/Grammar-Dictionaries/ <br /> |
+
+### Japanese Kanji Frequency Dictionaries
+
+<!-- prettier-ignore -->
+| Title | Entry Count | Information |
+| ------ | ----------- | ----------- |
 | 青空文庫漢字 | 8488 | **Author**: vtrm, Marv <br /> **Revision**: aozoraBunko_2022-08-26T05:49:00.968Z <br /> **URL**: https://www.aozora.gr.jp/ <br /> **Attribution**: 青空文庫 <br /> **Description**:<br /> Rank-based kanji frequency data from the Aozora Bunko<br />Data from https://vtrm.net/japanese/kanji-jukugo-frequency/en<br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | Innocent Corpus Kanji | 6430 | **Author**: cb4960, Marv <br /> **Revision**: kanjiFrequency1 <br /> **URL**: https://web.archive.org/web/20190309073023/https://forum.koohii.com/thread-9459.html#pid168613 <br /> **Attribution**: Innocent Corpus Novels <br /> **Description**:<br /> Rank-based kanji frequency data from the innocent corpus<br />Modified by https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | JPDB Kanji Freq | 6494 | **Author**: jpdb, Marv <br /> **Revision**: jpdb_kanji_2022-08-26T22:38:10.913Z <br /> **URL**: https://jpdb.io <br /> **Attribution**: jpdb <br /> **Description**:<br /> Rank-based kanji frequency data from JPDB<br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | Wikipedia Kanji | 20932 | **Author**: scriptin, Marv <br /> **Revision**: kanjiFrequency1 <br /> **URL**: https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8 <br /> **Attribution**: JA Wikipedia <br /> **Description**:<br /> Rank-based kanji frequency data from a May 2015 dump of Japanese Wikipedia.<br />Data from https://github.com/scriptin/kanji-frequency<br />Modified by https://github.com/MarvNC/yomichan-dictionaries <br /> |
+
+### Japanese Kanji Dictionaries
+
+<!-- prettier-ignore -->
+| Title | Entry Count | Information |
+| ------ | ----------- | ----------- |
 | jitai | 1174 | **Author**: epistularum, Marv <br /> **Revision**: jitai_2022-08-26T22:37:55.378Z <br /> **URL**: https://github.com/epistularum/jitai <br /> **Description**:<br /> Data about 新字体/旧字体 and 標準字体/許容字体 in comparison to each other.<br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | JPDB Kanji | 6494 | **Author**: jpdb, Marv <br /> **Revision**: jpdb_kanji_2022-08-26T22:38:14.736Z <br /> **URL**: https://jpdb.io <br /> **Attribution**: jpdb <br /> **Description**:<br /> Kanji data from JPDB<br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | KANJIDIC (English) | 10350 | **Revision**: kanjidic2 <br /> |
@@ -50,6 +96,12 @@ Yomitan options page.
 | TheKanjiMap Kanji Radicals/Composition | 6911 | **Author**: thekanjimap, Marv <br /> **Revision**: thekanjimap_2023-02-04T03:44:35.926Z <br /> **URL**: https://thekanjimap.com <br /> **Attribution**: thekanjimap <br /> **Description**:<br /> Radical entries and kanji decomposition/compositions from thekanjimap.com.<br />  Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | Wiktionary漢字 | 18122 | **Author**: Wiktionary, Wikimedia Foundation, Marv <br /> **Revision**: Wiktionary漢字 2022-09-11T06:04:07.166Z <br /> **URL**: https://ja.wiktionary.org/wiki/%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA:%E6%BC%A2%E5%AD%97 <br /> **Attribution**: JA Wiktionary <br /> **Description**:<br /> Kanji data from ja.wiktionary.org.<br />Parsed/converted by https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | 漢字辞典オンライン | 27693 | **Revision**: jitenon-kanji;2023-08-17 <br /> **URL**: https://kanji.jitenon.jp/ <br /> **Attribution**: © 2014-2023  漢字辞典オンライン <br /> |
+
+### Japanese Term Dictionaries
+
+<!-- prettier-ignore -->
+| Title | Entry Count | Information |
+| ------ | ----------- | ----------- |
 | 語源由来辞典 | 2795 | **Revision**: Gogen <br /> |
 | 明鏡国語辞典　第二版 | 73068 | **Revision**: meikyo2.2023.07.22.0 <br /> **Description**:<br /> ▼ non-jōyō kanji<br />▽ jōyō kanji used with a non-standard reading <br /> |
 | Pixiv [2023-11-24] | 531855 | **Author**: Pixiv contributors, Marv <br /> **Revision**: pixiv_2023-11-24T00:31:55.205Z <br /> **URL**: https://dic.pixiv.net/ <br /> **Attribution**: Pixiv <br /> **Description**:<br /> Article summaries scraped from pixiv, 531859 entries included.<br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
@@ -79,15 +131,37 @@ Yomitan options page.
 | 大辞林　第四版 | 334751 | **Revision**: daijirin2;2023-07-10 <br /> **Attribution**: © Sanseido Co., LTD. 2019 <br /> |
 | 日本語俗語辞書 | 4354 | **Author**: Kartoffel <br /> **Revision**: 1 <br /> **Attribution**: http://zokugo-dict.com/ <br /> **Description**:<br /> I'll only say anything in the presence of my advocate <br /> |
 | 複合語起源 | 222 | **Author**: 名無し, 名無し, seanblue, Marv <br /> **Revision**: 複合語起源_2022-08-26T22:38:51.046Z <br /> **URL**: https://github.com/MarvNC/yomichan-dictionaries <br /> **Description**:<br /> Sources:<br />https://jbbs.shitaraba.net/bbs/read.cgi/study/10958/1299762655<br />https://academy6.5ch.net/test/read.cgi/gengo/1228873581<br />https://community.wanikani.com/t/special-kanji-words-derived-from-other-words/35655<br /><br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
+
+### Japanese Pitch Dictionaries
+
+<!-- prettier-ignore -->
+| Title | Entry Count | Information |
+| ------ | ----------- | ----------- |
 | 大辞林第四版 | 152193 | **Author**: コツ <br /> **Revision**: pitch_1.0.1.1 <br /> **URL**: https://kotu.io <br /> **Description**:<br /> For accurate pronunciation (vowel elongation etc..) and comparisons across multiple modern and historical dictionaries visit the linked URL. <br /> |
 | 大辞泉 | 88089 | **Author**: コツ <br /> **Revision**: pitch_1.0.0.1 <br /> **URL**: https://kotu.io <br /> **Description**:<br /> For accurate pronunciation (vowel elongation etc..) and comparisons across multiple modern and historical dictionaries visit the linked URL. <br /> |
 | NHK | 73100 | **Author**: コツ <br /> **Revision**: pitch_1.0.1.1 <br /> **URL**: https://kotu.io <br /> **Description**:<br /> For accurate pronunciation (vowel elongation etc..) and comparisons across multiple modern and historical dictionaries visit the linked URL. <br /> |
+
+## Cantonese Dictionaries
+
+### Cantonese Term Dictionaries
+
+<!-- prettier-ignore -->
+| Title | Entry Count | Information |
+| ------ | ----------- | ----------- |
 | CantoDict | 86570 | **Author**: CantoDict contributors, Marv <br /> **Revision**: cantodict_2023-04-25T22:55:55.715Z <br /> **URL**: http://www.cantonese.sheik.co.uk/ <br /> **Attribution**: CantoDict contributors <br /> **Description**:<br /> CantoDict was a Cantonese-English dictionary created and maintained by public contributors. It was abandoned, but the data was archived thanks to awong-dev at https://github.com/awong-dev/cantodict-archive.<br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | Canto CEDICT | 105347 | **Revision**: 20240412 <br /> |
 | CC-Canto | 34335 | **Revision**: 20240412 <br /> |
 | CE Wiktionary | 142685 | **Revision**: 20240412 <br /> |
 | Words.hk C-C FS | 50061 | **Revision**: 20240412 <br /> |
 | Words.hk C-E FS | 50064 | **Revision**: 20240412 <br /> |
+
+## Mandarin Chinese
+
+### Mandarin Chinese Frequency Dictionaries
+
+<!-- prettier-ignore -->
+| Title | Entry Count | Information |
+| ------ | ----------- | ----------- |
 | HSK | 11107 | **Author**: Chinese Ministry of Education, Andy Burke, Michel <br /> **Revision**: HSK_2023-06-20 <br /> **URL**: https://github.com/andycburke/HSK-3.0-Word-List <br /> **Attribution**: Chinese Ministry of Education <br /> **Description**:<br /> This frequency list is based on the new HSK word list (HSK 3.0, 2021). It is taken from Andy Burke's github post, which is itself taken from the Chinese Ministry of Education's original pdf. Levels 7 to 9 are not delineated <br /> |
 | BLCUcoll | 91797 | **Author**: Beijing Language and Culture University compiled the data, BearXiong converted it for Pleco, nadavspi and Michel converted it for yomichan <br /> **Revision**: zhfreq_coll_2023-06-20 <br /> **URL**: https://www.chinese-forums.com/forums/topic/56816-sharing-a-pleco-word-frequency-user-dictionary/ <br /> **Attribution**: Beijing Language and Culture University <br /> **Description**:<br /> This frequency list is taken from BearXiong's post on chinese-forums.com. The data itself comes from the 15 billion character corpus compiled by the Beijing Language and Culture university. <br /> |
 | BLCUlit | 90580 | **Author**: Beijing Language and Culture University compiled the data, BearXiong converted it for Pleco, nadavspi and Michel converted it for yomichan <br /> **Revision**: zhfreq_lit_2023-06-20 <br /> **URL**: https://www.chinese-forums.com/forums/topic/56816-sharing-a-pleco-word-frequency-user-dictionary/ <br /> **Attribution**: Beijing Language and Culture University <br /> **Description**:<br /> This frequency list is taken from BearXiong's post on chinese-forums.com. The data itself comes from the 15 billion character corpus compiled by the Beijing Language and Culture university. <br /> |
@@ -95,7 +169,19 @@ Yomitan options page.
 | BLCUnews | 91690 | **Author**: Beijing Language and Culture University compiled the data, BearXiong converted it for Pleco, nadavspi and Michel converted it for yomichan <br /> **Revision**: zhfreq_news_2023-06-20 <br /> **URL**: https://www.chinese-forums.com/forums/topic/56816-sharing-a-pleco-word-frequency-user-dictionary/ <br /> **Attribution**: Beijing Language and Culture University <br /> **Description**:<br /> This frequency list is taken from BearXiong's post on chinese-forums.com. The data itself comes from the 15 billion character corpus compiled by the Beijing Language and Culture university. <br /> |
 | BLCUsci | 92779 | **Author**: Beijing Language and Culture University compiled the data, BearXiong converted it for Pleco, nadavspi and Michel converted it for yomichan <br /> **Revision**: zhfreq_sci_2023-06-20 <br /> **URL**: https://www.chinese-forums.com/forums/topic/56816-sharing-a-pleco-word-frequency-user-dictionary/ <br /> **Attribution**: Beijing Language and Culture University <br /> **Description**:<br /> This frequency list is taken from BearXiong's post on chinese-forums.com. The data itself comes from the 15 billion character corpus compiled by the Beijing Language and Culture university. <br /> |
 | SUBTLEX-CH | 62096 | **Author**: University of Ghent compiled the data, BearXiong converted it for Pleco, nadavspi and Michel converted it for yomichan <br /> **Revision**: zhfreq_subs_2023-06-20 <br /> **URL**: https://www.chinese-forums.com/forums/topic/56816-sharing-a-pleco-word-frequency-user-dictionary/ <br /> **Attribution**: University of Ghent <br /> **Description**:<br /> This frequency list is taken from BearXiong's post on chinese-forums.com. The subtitles category is based on SUBTLEX, a frequency list compiled by the university of Ghent, Belgium. <br /> |
+
+### Mandarin Chinese Hanzi Dictionaries
+
+<!-- prettier-ignore -->
+| Title | Entry Count | Information |
+| ------ | ----------- | ----------- |
 | ZH Wiktionary Hanzi | 97641 | **Author**: Wiktionary, Wikimedia Foundation, Marv <br /> **Revision**: ZH_Wikt_Hanzi2023-03-05T21:01:41.039Z <br /> **URL**: https://zh.wiktionary.org/wiki/Category:%E6%BC%A2%E5%AD%97%E5%AD%97%E5%85%83 <br /> **Attribution**: ZH Wiktionary <br /> **Description**:<br /> Hanzi data scraped from zh.wiktionary.org<br />Parsed/converted by https://github.com/MarvNC/yomichan-dictionaries <br /> |
+
+### Mandarin Chinese Term Dictionaries
+
+<!-- prettier-ignore -->
+| Title | Entry Count | Information |
+| ------ | ----------- | ----------- |
 | CEDICT | 193931 | **Revision**: cc_cedict_14_3_2021 <br /> |
 | Wenlin ABC | 207289 | **Author**: Wenlin Institute, rduwjjnh <br /> **Revision**: 2023-07-17 <br /> **URL**: https://wenlin.co/wow/Project:Ci <br /> **Attribution**: Wenlin Institute <br /> **Description**:<br /> Published in July 2003 and revised through 2005, the Wenlin ABC Chinese-English Comprehensive Dictionary was produced by the Wenlin Institude in cooperation with the ABC Chinese Dictionary Series Project at the University of Hawaii. It contains over 196,000 entries. <br /> |
 | 中日大辞典　第二版 | 146381 | **Revision**: chuunichi1 <br /> |
