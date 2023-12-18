@@ -87,11 +87,13 @@ Yomitan options page.
 <!-- prettier-ignore -->
 | Title | Entry Count | Information |
 | ------ | ----------- | ----------- |
+| 漢字林 | 46210 | **Revision**: 漢字林 <br /> |
 | 漢字辞典オンライン | 27693 | **Revision**: jitenon-kanji;2023-08-17 <br /> **URL**: https://kanji.jitenon.jp/ <br /> **Attribution**: © 2014-2023  漢字辞典オンライン <br /> |
 | Wiktionary漢字 | 18122 | **Author**: Wiktionary, Wikimedia Foundation, Marv <br /> **Revision**: Wiktionary漢字 2022-09-11T06:04:07.166Z <br /> **URL**: https://ja.wiktionary.org/wiki/%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA:%E6%BC%A2%E5%AD%97 <br /> **Attribution**: JA Wiktionary <br /> **Description**:<br /> Kanji data from ja.wiktionary.org.<br />Parsed/converted by https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | KANJIDIC | 10383 | **Author**: yomitan-import <br /> **Revision**: kanjidic2 <br /> **URL**: https://github.com/themoeway/yomitan-import <br /> **Attribution**: This publication has included material from the JMdict (EDICT, etc.) dictionary files in accordance with the licence provisions of the Electronic Dictionaries Research Group. See http://www.edrdg.org/ <br /> |
 | TheKanjiMap Kanji Radicals/Composition | 6911 | **Author**: thekanjimap, Marv <br /> **Revision**: thekanjimap_2023-02-04T03:44:35.926Z <br /> **URL**: https://thekanjimap.com <br /> **Attribution**: thekanjimap <br /> **Description**:<br /> Radical entries and kanji decomposition/compositions from thekanjimap.com.<br />  Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | JPDB Kanji | 6494 | **Author**: jpdb, Marv <br /> **Revision**: jpdb_kanji_2022-08-26T22:38:14.736Z <br /> **URL**: https://jpdb.io <br /> **Attribution**: jpdb <br /> **Description**:<br /> Kanji data from JPDB<br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
+| 漢字ペディア | 5635 | **Revision**: 漢字ペディア <br /> |
 | mozc Kanji Variants | 1317 | **Author**: Google, Marv <br /> **Revision**: mozc_2022-08-26T22:38:27.927Z <br /> **URL**: https://github.com/google/mozc <br /> **Attribution**: Google <br /> **Description**:<br /> Data about kanji variants from Google's Japanese IME, mozc.<br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | jitai | 1174 | **Author**: epistularum, Marv <br /> **Revision**: jitai_2022-08-26T22:37:55.378Z <br /> **URL**: https://github.com/epistularum/jitai <br /> **Description**:<br /> Data about 新字体/旧字体 and 標準字体/許容字体 in comparison to each other.<br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
 
@@ -113,11 +115,14 @@ Yomitan options page.
 | 三省堂国語辞典　第八版 | 93091 | **Revision**: sankoku8;2023-07-19 <br /> **Attribution**: © Sanseido Co., LTD. 2021 <br /> |
 | 旺文社国語辞典 第十一版 | 92217 | **Author**: irhello, shoui <br /> **Revision**: OUKOKU11_1.6 <br /> **URL**: https://learnjapanese.moe <br /> **Attribution**: Ⓒ 2013 旺文社 株式会社 <br /> https://www.obunsha.co.jp/pr/oukoku/ <br /> **Description**:<br /> <================================<br />的確さ、わかりやすさを追求！<br />王道の国語辞典をYomichanで検索！<br /><================================ <br /> |
 | 岩波国語辞典　第八版 | 76625 | **Revision**: iwakoku8.2023.04.08.0 <br /> |
+| KO字源 | 73401 | **Revision**: KO字源 <br /> |
 | 明鏡国語辞典　第二版 | 73068 | **Revision**: meikyo2.2023.07.22.0 <br /> **Description**:<br /> ▼ non-jōyō kanji<br />▽ jōyō kanji used with a non-standard reading <br /> |
+| 全訳漢辞海 | 60839 | **Revision**: 全訳漢辞海 <br /> |
 | 実用日本語表現辞典 | 55379 | **Revision**: jitsuyou;2023-08-15 <br /> **URL**: http://www.practical-japanese.com/ <br /> **Description**:<br /> Added conjugation <br /> |
 | 漢字源 | 48085 | **Revision**: kanjigen1 <br /> |
 | weblio古語辞典 | 47958 | **Revision**: Meikyou1 <br /> |
 | 国語辞典オンライン | 44970 | **Revision**: jitenon-kokugo;2023-05-13 <br /> **URL**: https://kokugo.jitenon.jp/ <br /> **Attribution**: © 2014-2023  国語辞典オンライン <br /> |
+| 漢検 漢字辞典 | 40549 | **Revision**: ;_; <br /> |
 | 新語時事用語辞典 | 18294 | **Revision**: shingojijiyougojiten;2023-08-14 <br /> **URL**: http://www.breaking-news-words.com/ <br /> **Description**:<br /> 新聞やテレビで話題に上った、新語および時事的なキーワードを解説しています。 Added conjugation <br /> |
 | 使い方の分かる 類語例解辞典 | 17350 | **Author**: 小学館辞典編集部 <br /> **Revision**: tsukaikatanowakaru-2023-08-09 <br /> **URL**: https://dictionary.goo.ne.jp/thsrs/ <br /> **Attribution**: 使い方の分かる 類語例解辞典 <br /> **Description**:<br /> Scraped from dictionary.goo.ne.jp 2023-08-09 <br /> |
 | 故事ことわざの辞典 | 15577 | **Author**: Thermospore <br /> **Revision**: kotowaza1 <br /> **Description**:<br /> Generated using the current version of Yomichan Import as of March 7th, 2021, then hex edited to remove excessive whitespace <br /> |
@@ -126,8 +131,10 @@ Yomitan options page.
 | 学研 四字熟語辞典 | 5484 | **Author**: ッツ <br /> **Revision**: gakken_yojijukugo;2021-07-12 <br /> **URL**: https://dictionary.goo.ne.jp <br /> **Attribution**: 編集：学研<br /><br />© Gakken<br />https://hon.gakken.jp <br /> **Description**:<br /> 難解な四字熟語も理解できるように、また、手軽に調べられるように、四字熟語を広く捉え約2700項目を収録。文学作品の用例が豊富で、注記や類義語、対義語も充実。検定試験やクロスワードにも使えます。 <br /> |
 | 日本語俗語辞書 | 4354 | **Author**: Kartoffel <br /> **Revision**: 1 <br /> **Attribution**: http://zokugo-dict.com/ <br /> **Description**:<br /> I'll only say anything in the presence of my advocate <br /> |
 | 新明解四字熟語辞典 | 4194 | **Author**: ッツ <br /> **Revision**: shinmeikai_yojijukugo;2021-07-12 <br /> **URL**: https://dictionary.goo.ne.jp <br /> **Attribution**: 編集：三省堂<br /><br />© SANSEIDO Co.<br />https://dictionary.sanseido-publ.co.jp <br /> **Description**:<br /> 業界最大語数を誇る「新明解四字熟語辞典」より厳選。座右の銘や新年の抱負に使える四字熟語約2000項目を収録しています。就活のエントリーシートやスピーチなど、日常生活のさまざまな場面で役立ちます。 <br /> |
+| YOJI-JUKUGO | 4017 | **Revision**: YOJI-JUKUGO <br /> |
 | 全国方言辞典 | 3738 | **Author**: goo <br /> **Revision**: zenkokuhougenjiten-2023-08-12 <br /> **URL**: https://dictionary.goo.ne.jp/dialect/ <br /> **Attribution**: 全国方言辞典 <br /> **Description**:<br /> Scraped from dictionary.goo.ne.jp 2023-08-12 <br /> |
 | 語源由来辞典 | 2795 | **Revision**: Gogen <br /> |
+| 福日木健二字熟語 | 2306 | **Revision**: 福日木健二字熟語 <br /> |
 | surasura 擬声語 | 1422 | **Author**: surasura, Marv <br /> **Revision**: surasura_2023-03-22T01:10:57.302Z <br /> **URL**: http://sura-sura.com/ <br /> **Attribution**: surasura <br /> **Description**:<br /> Onomatopoeia info from http://sura-sura.com/<br />Parsed/converted by https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | 漢字ペディア同訓異義 | 966 | **Revision**: kanjipedia-doukunigi;2023-08-28 <br /> **URL**: https://www.kanjipedia.jp/sakuin/doukunigi/ <br /> **Attribution**: © 公益財団法人 日本漢字能力検定協会 <br /> **Description**:<br /> Scraped from kanjipedia 2023-08-28 <br /> |
 | 複合語起源 | 222 | **Author**: 名無し, 名無し, seanblue, Marv <br /> **Revision**: 複合語起源_2022-08-26T22:38:51.046Z <br /> **URL**: https://github.com/MarvNC/yomichan-dictionaries <br /> **Description**:<br /> Sources:<br />https://jbbs.shitaraba.net/bbs/read.cgi/study/10958/1299762655<br />https://academy6.5ch.net/test/read.cgi/gengo/1228873581<br />https://community.wanikani.com/t/special-kanji-words-derived-from-other-words/35655<br /><br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
@@ -178,6 +185,7 @@ Yomitan options page.
 | Title | Entry Count | Information |
 | ------ | ----------- | ----------- |
 | ZH Wiktionary Hanzi | 97641 | **Author**: Wiktionary, Wikimedia Foundation, Marv <br /> **Revision**: ZH_Wikt_Hanzi2023-03-05T21:01:41.039Z <br /> **URL**: https://zh.wiktionary.org/wiki/Category:%E6%BC%A2%E5%AD%97%E5%AD%97%E5%85%83 <br /> **Attribution**: ZH Wiktionary <br /> **Description**:<br /> Hanzi data scraped from zh.wiktionary.org<br />Parsed/converted by https://github.com/MarvNC/yomichan-dictionaries <br /> |
+| 康熙字典 | 46836 | **Revision**: 康熙字典 <br /> |
 
 ### Mandarin Chinese Bilingual Term Dictionaries
 
@@ -197,6 +205,7 @@ Yomitan options page.
 | 萌典国语辞典 | 266956 | **Revision**: chrono7_moedict <br /> |
 | 萌典 | 164269 | **Revision**: lix 1 pinyin <br /> |
 | 兩岸詞典 | 163091 | **Revision**: 兩岸詞典_1 <br /> |
+| 辭源 | 91538 | **Revision**: 辭源 <br /> |
 | 牛津英汉汉英词典 | 74663 | **Revision**: lix 2 <br /> |
 | 现代汉语规范词典 | 72841 | **Revision**: lix 1 <br /> |
 | 五南國語活用辭典 | 59935 | **Revision**: lix 1 <br /> |
