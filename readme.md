@@ -109,6 +109,7 @@ Yomitan options page.
 <!-- prettier-ignore -->
 | Title | Entry Count | Information |
 | ------ | ----------- | ----------- |
+| JA Wikipedia [2022-12-01] | 1279999 | **Author**: Wikipedians, DBPedia, Marv <br /> **Revision**: wikipedia_2023-12-17T22:34:35.417Z <br /> **URL**: https://ja.wikipedia.org/ <br /> **Attribution**: Wikipedia <br /> **Description**:<br /> Wikipedia short abstracts from the DBPedia dataset available at https://databus.dbpedia.org/dbpedia/text/short-abstracts.<br /><br />Recommended custom CSS:<br />div.gloss-sc-div[data-sc-jawiki=red] {<br />  color: #e5007f;<br />}<br /><br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | Pixiv [2023-11-24] | 531855 | **Author**: Pixiv contributors, Marv <br /> **Revision**: pixiv_2023-11-24T00:31:55.205Z <br /> **URL**: https://dic.pixiv.net/ <br /> **Attribution**: Pixiv <br /> **Description**:<br /> Article summaries scraped from pixiv, 531859 entries included.<br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
 | デジタル大辞泉 | 527290 | **Author**: ッツ <br /> **Revision**: daijisen_20210506;2021-07-27 <br /> **URL**: https://dictionary.goo.ne.jp <br /> **Attribution**: 監修：松村明<br />編集委員：池上秋彦、金田弘、杉崎一雄、鈴木丹士郎、中嶋尚、林巨樹、飛田良文<br />編集協力：田中牧郎、曽根脩<br /><br />© Shogakukan Inc.<br />https://daijisen.jp <br /> **Description**:<br /> 30万4千項目以上（2021年04月現在）を収録、言葉の集大成といえる大型国語辞典。年3回。定期更新を行い、最新の項目と日々修正される最新のデータを提供しています。 <br /> |
 | 大辞林　第四版 | 334751 | **Revision**: daijirin2;2023-07-10 <br /> **Attribution**: © Sanseido Co., LTD. 2019 <br /> |
