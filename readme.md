@@ -203,6 +203,7 @@ Yomitan options page.
 <!-- prettier-ignore -->
 | Title | Entry Count | Information |
 | ------ | ----------- | ----------- |
+| ZH Wikipedia [2022-12-01] | 1249877 | **Author**: Wikipedians, DBPedia, Marv <br /> **Revision**: wikipedia_2023-12-20T01:18:42.692Z <br /> **URL**: https://github.com/MarvNC/wikipedia-yomitan <br /> **Attribution**: https://zh.wikipedia.org/ <br /> **Description**:<br /> Wikipedia short abstracts from the DBPedia dataset available at https://databus.dbpedia.org/dbpedia/text/short-abstracts.<br /><br />Recommended custom CSS:<br />div.gloss-sc-div[data-sc-wikipedia=term-specifier] {<br />  color: #e5007f;<br />} <br /> |
 | 漢語大詞典 | 550544 | **Revision**: 漢語大詞典_1 <br /> |
 | 萌典国语辞典 | 266956 | **Revision**: chrono7_moedict <br /> |
 | 萌典 | 164269 | **Revision**: lix 1 pinyin <br /> |
