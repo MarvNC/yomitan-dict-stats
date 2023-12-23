@@ -9,6 +9,9 @@ You can run the script yourself by pasting the contents of
 [generateStats.js](./generateStats.js) into your browser's console while on the
 Yomitan options page.
 
+> [!NOTE]
+> The entry count numbers naively count the amount of term entries in total in each Yomitan dictionary. This can lead to some dictionaries such as jpdb and Jitendex being overcounted as they have greater coverage for variants of many terms while other dictionaries might only have one entry for most terms.
+
 ## Dictionaries
 
 - [Dictionaries](#dictionaries)
