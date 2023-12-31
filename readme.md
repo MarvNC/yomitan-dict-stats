@@ -22,7 +22,7 @@ Yomitan options page.
   - [Japanese Pitch Accent Dictionaries](#japanese-pitch-accent-dictionaries)
 - [Cantonese Dictionaries](#cantonese-dictionaries)
   - [Cantonese Term Dictionaries](#cantonese-term-dictionaries)
-  - [Cantonese Term Dictionaries](#cantonese-term-dictionaries-1)
+  - [Cantonese Term Frequency Dictionaries](#cantonese-term-frequency-dictionaries)
 - [Mandarin Chinese](#mandarin-chinese)
   - [Mandarin Chinese Frequency Dictionaries](#mandarin-chinese-frequency-dictionaries)
   - [Mandarin Chinese Hanzi Dictionaries](#mandarin-chinese-hanzi-dictionaries)
@@ -165,7 +165,7 @@ Yomitan options page.
 | Words.hk C-C FS | 50061 | **Revision**: 20240412 <br /> |
 | CC-Canto | 34335 | **Revision**: 20240412 <br /> |
 
-### Cantonese Term Dictionaries
+### Cantonese Term Frequency Dictionaries
 
 <!-- prettier-ignore -->
 | Title | Entry Count | Information |
