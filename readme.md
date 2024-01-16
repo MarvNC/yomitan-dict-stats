@@ -123,6 +123,7 @@ Yomitan options page.
 | 明鏡国語辞典　第二版 | 73068 | **Revision**: meikyo2.2023.07.22.0 <br /> **Description**:<br /> ▼ non-jōyō kanji<br />▽ jōyō kanji used with a non-standard reading <br /> |
 | 全訳漢辞海 | 60839 | **Revision**: 全訳漢辞海 <br /> |
 | 実用日本語表現辞典 | 55379 | **Revision**: jitsuyou;2023-08-15 <br /> **URL**: http://www.practical-japanese.com/ <br /> **Description**:<br /> Added conjugation <br /> |
+| 漢検漢字辞典　第二版 | 50974 | **Author**: dictionary anonymous <br /> **Revision**: kankenkj2;2024-01-15 <br /> **Attribution**: © The Japan Kanji Aptitude Testing Foundation <br /> |
 | 漢字源 | 48085 | **Revision**: kanjigen1 <br /> |
 | weblio古語辞典 | 47958 | **Revision**: Meikyou1 <br /> |
 | 国語辞典オンライン | 44970 | **Revision**: jitenon-kokugo;2023-05-13 <br /> **URL**: https://kokugo.jitenon.jp/ <br /> **Attribution**: © 2014-2023  国語辞典オンライン <br /> |
