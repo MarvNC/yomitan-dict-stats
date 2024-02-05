@@ -16,10 +16,8 @@ Yomitan options page.
 > jpdb and Jitendex being overcounted as they have greater coverage for variants
 > of many terms while other dictionaries might only have one entry for most
 > terms.
+>
 
-## Dictionaries
-
-- [Dictionaries](#dictionaries)
 - [Japanese](#japanese)
   - [Japanese Frequency Dictionaries](#japanese-frequency-dictionaries)
   - [Japanese Bilingual Dictionaries](#japanese-bilingual-dictionaries)
