@@ -98,6 +98,7 @@ Yomitan options page.
 | 新語時事用語辞典 | 18294 | **Revision**: shingojijiyougojiten;2023-08-14 <br /> **URL**: http://www.breaking-news-words.com/ <br /> **Description**:<br /> 新聞やテレビで話題に上った、新語および時事的なキーワードを解説しています。 Added conjugation <br /> |
 | 使い方の分かる 類語例解辞典 | 17350 | **Author**: 小学館辞典編集部 <br /> **Revision**: tsukaikatanowakaru-2023-08-09 <br /> **URL**: https://dictionary.goo.ne.jp/thsrs/ <br /> **Attribution**: 使い方の分かる 類語例解辞典 <br /> **Description**:<br /> Scraped from dictionary.goo.ne.jp 2023-08-09 <br /> |
 | 故事ことわざの辞典 | 15577 | **Author**: Thermospore <br /> **Revision**: kotowaza1 <br /> **Description**:<br /> Generated using the current version of Yomichan Import as of March 7th, 2021, then hex edited to remove excessive whitespace <br /> |
+| 対義語辞典オンライン | 13965 | **Revision**: taigigo_240207 <br /> **Attribution**: taigigo.jitenon.jp <br /> |
 | 故事・ことわざ・慣用句オンライン | 8513 | **Revision**: jitenon-kotowaza;2023-05-15 <br /> **URL**: https://kotowaza.jitenon.jp/ <br /> **Attribution**: © 2014-2023  故事・ことわざ・慣用句辞典オンライン <br /> |
 | 四字熟語辞典オンライン | 7782 | **Revision**: jitenon-yoji;2023-05-14 <br /> **URL**: https://yoji.jitenon.jp/ <br /> **Attribution**: © 2012-2023  四字熟語辞典オンライン <br /> |
 | 学研 四字熟語辞典 | 5484 | **Author**: ッツ <br /> **Revision**: gakken_yojijukugo;2021-07-12 <br /> **URL**: https://dictionary.goo.ne.jp <br /> **Attribution**: 編集：学研<br /><br />© Gakken<br />https://hon.gakken.jp <br /> **Description**:<br /> 難解な四字熟語も理解できるように、また、手軽に調べられるように、四字熟語を広く捉え約2700項目を収録。文学作品の用例が豊富で、注記や類義語、対義語も充実。検定試験やクロスワードにも使えます。 <br /> |
@@ -206,6 +207,7 @@ Yomitan options page.
 | CC-CEDICT [2023-12-20] | 198702 | **Author**: MDBG, CC-CEDICT, Marv <br /> **Revision**: 2023-12-20 <br /> **URL**: https://github.com/MarvNC/cc-cedict-yomitan <br /> **Attribution**: https://cc-cedict.org/wiki/<br />Thanks go out to everyone who submitted new words or corrections. Special thanks go out to the CC-CEDICT editor team, who spend many hours doing research to maintain a high quality level:<br /><br />goldyn_chyld - Matic Kavcic<br />richwarm - Richard Warmington<br />vermillion - Julien Baley<br />ycandau - Yves Candau<br />feilipu<br />and the editors who wish to remain anonymous<br />Special thanks to:<br /><br />Craig Brelsford, for his extensive list of bird names<br />Erik Peterson, for his work as the editor of CEDICT<br />Paul Andrew Denisowski, the original creator of CEDICT <br /> **Description**:<br /> CC-CEDICT is a continuation of the CEDICT project started by Paul Denisowski in 1997 with the aim to provide a complete downloadable Chinese to English dictionary with pronunciation in pinyin for the Chinese characters.<br />    This dictionary for Yomitan was converted from the data available at https://www.mdbg.net/chinese/dictionary?page=cc-cedict using https://github.com/MarvNC/cc-cedict-yomitan and https://github.com/MarvNC/yomichan-dict-builder. <br /> |
 | CEDICT | 193931 | **Revision**: cc_cedict_14_3_2021 <br /> |
 | 中日大辞典　第二版 | 146381 | **Revision**: chuunichi1 <br /> |
+| 白水社中国語辞典 | 63858 | **Revision**: 白水社中国語辞典_1 <br /> |
 
 ### Mandarin Chinese Monolingual Term Dictionaries
 
