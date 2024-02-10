@@ -89,6 +89,7 @@ Yomitan options page.
 | KO字源 | 73401 | **Revision**: KO字源 <br /> |
 | 明鏡国語辞典　第二版 | 73068 | **Revision**: meikyo2.2023.07.22.0 <br /> **Description**:<br /> ▼ non-jōyō kanji<br />▽ jōyō kanji used with a non-standard reading <br /> |
 | 全訳漢辞海 | 60839 | **Revision**: 全訳漢辞海 <br /> |
+| 例解学習国語辞典 第十一版 | 56840 | **Revision**: RGKo11 2024/02/10 <br /> **Attribution**: © 小学館 <br /> |
 | 実用日本語表現辞典 | 55379 | **Revision**: jitsuyou;2023-08-15 <br /> **URL**: http://www.practical-japanese.com/ <br /> **Description**:<br /> Added conjugation <br /> |
 | 漢検漢字辞典　第二版 | 50974 | **Author**: dictionary anonymous <br /> **Revision**: kankenkj2;2024-01-15 <br /> **Attribution**: © The Japan Kanji Aptitude Testing Foundation <br /> |
 | 漢字源 | 48085 | **Revision**: kanjigen1 <br /> |
@@ -99,6 +100,7 @@ Yomitan options page.
 | 使い方の分かる 類語例解辞典 | 17350 | **Author**: 小学館辞典編集部 <br /> **Revision**: tsukaikatanowakaru-2023-08-09 <br /> **URL**: https://dictionary.goo.ne.jp/thsrs/ <br /> **Attribution**: 使い方の分かる 類語例解辞典 <br /> **Description**:<br /> Scraped from dictionary.goo.ne.jp 2023-08-09 <br /> |
 | 故事ことわざの辞典 | 15577 | **Author**: Thermospore <br /> **Revision**: kotowaza1 <br /> **Description**:<br /> Generated using the current version of Yomichan Import as of March 7th, 2021, then hex edited to remove excessive whitespace <br /> |
 | 対義語辞典オンライン | 13965 | **Revision**: taigigo_240207 <br /> **Attribution**: taigigo.jitenon.jp <br /> |
+| 類語辞典オンライン | 12151 | **Revision**: ruigo_240209 <br /> **Attribution**: ruigo.jitenon.jp <br /> |
 | 故事・ことわざ・慣用句オンライン | 8513 | **Revision**: jitenon-kotowaza;2023-05-15 <br /> **URL**: https://kotowaza.jitenon.jp/ <br /> **Attribution**: © 2014-2023  故事・ことわざ・慣用句辞典オンライン <br /> |
 | 四字熟語辞典オンライン | 7782 | **Revision**: jitenon-yoji;2023-05-14 <br /> **URL**: https://yoji.jitenon.jp/ <br /> **Attribution**: © 2012-2023  四字熟語辞典オンライン <br /> |
 | 学研 四字熟語辞典 | 5484 | **Author**: ッツ <br /> **Revision**: gakken_yojijukugo;2021-07-12 <br /> **URL**: https://dictionary.goo.ne.jp <br /> **Attribution**: 編集：学研<br /><br />© Gakken<br />https://hon.gakken.jp <br /> **Description**:<br /> 難解な四字熟語も理解できるように、また、手軽に調べられるように、四字熟語を広く捉え約2700項目を収録。文学作品の用例が豊富で、注記や類義語、対義語も充実。検定試験やクロスワードにも使えます。 <br /> |
