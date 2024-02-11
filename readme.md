@@ -29,6 +29,7 @@ Yomitan options page.
 - [Cantonese Dictionaries](#cantonese-dictionaries)
   - [Cantonese Term Frequency Dictionaries](#cantonese-term-frequency-dictionaries)
   - [Cantonese Term Dictionaries](#cantonese-term-dictionaries)
+  - [Cantonese Honzi Dictionaries](#cantonese-honzi-dictionaries)
 - [Mandarin Chinese](#mandarin-chinese)
   - [Mandarin Chinese Frequency Dictionaries](#mandarin-chinese-frequency-dictionaries)
   - [Mandarin Chinese Bilingual Term Dictionaries](#mandarin-chinese-bilingual-term-dictionaries)
@@ -184,6 +185,13 @@ Yomitan options page.
 | Words.hk C-E FS | 50064 | **Revision**: 20240412 <br /> |
 | Words.hk C-C FS | 50061 | **Revision**: 20240412 <br /> |
 | CC-Canto | 34335 | **Revision**: 20240412 <br /> |
+
+### Cantonese Honzi Dictionaries
+
+<!-- prettier-ignore -->
+| Title | Entry Count | Information |
+| ------ | ----------- | ----------- |
+| Words.hk 粵典 漢字 [2024-02-10] | 6638 | **Author**: Marv <br /> **Revision**: 1.0.0 <br /> **URL**: https://github.com/MarvNC/wordshk-yomitan <br /> **Attribution**: Words.hk & contributers (https://words.hk)<br />    See license at https://words.hk/base/hoifong/ <br /> **Description**:<br /> Converted from the free Words.hk dictionary found at https://words.hk/.<br />      Converted using https://github.com/MarvNC/yomichan-dict-builder <br /> |
 
 ## Mandarin Chinese
 
