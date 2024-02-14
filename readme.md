@@ -112,6 +112,7 @@ Yomitan options page.
 | 語源由来辞典 | 2795 | **Revision**: Gogen <br /> |
 | 福日木健二字熟語 | 2306 | **Revision**: 福日木健二字熟語 <br /> |
 | surasura 擬声語 | 1422 | **Author**: surasura, Marv <br /> **Revision**: surasura_2023-03-22T01:10:57.302Z <br /> **URL**: http://sura-sura.com/ <br /> **Attribution**: surasura <br /> **Description**:<br /> Onomatopoeia info from http://sura-sura.com/<br />Parsed/converted by https://github.com/MarvNC/yomichan-dictionaries <br /> |
+| 数え方辞典オンライン | 1312 | **Revision**: count_240213 <br /> **Attribution**: count.jitenon.jp <br /> |
 | 漢字ペディア同訓異義 | 966 | **Revision**: kanjipedia-doukunigi;2023-08-28 <br /> **URL**: https://www.kanjipedia.jp/sakuin/doukunigi/ <br /> **Attribution**: © 公益財団法人 日本漢字能力検定協会 <br /> **Description**:<br /> Scraped from kanjipedia 2023-08-28 <br /> |
 | 複合語起源 | 222 | **Author**: 名無し, 名無し, seanblue, Marv <br /> **Revision**: 複合語起源_2022-08-26T22:38:51.046Z <br /> **URL**: https://github.com/MarvNC/yomichan-dictionaries <br /> **Description**:<br /> Sources:<br />https://jbbs.shitaraba.net/bbs/read.cgi/study/10958/1299762655<br />https://academy6.5ch.net/test/read.cgi/gengo/1228873581<br />https://community.wanikani.com/t/special-kanji-words-derived-from-other-words/35655<br /><br />Created with https://github.com/MarvNC/yomichan-dictionaries <br /> |
 
