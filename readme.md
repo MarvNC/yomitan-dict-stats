@@ -54,9 +54,11 @@ Yomitan options page.
 | CC100 | 160836 | **Author**: xydustc <br /> **Revision**: 1 <br /> **Description**:<br /> Sudachipy Mode B & fugashi parsed CC100 datasaet, filtered by dictionaries <br /> |
 | 国語辞典 | 156452 | **Revision**: kokugojiten_freq <br /> |
 | Netflix | 129141 | **Revision**: netflix.frequency <br /> |
+| ウェブ NWJC | 106754 | **Revision**: NWJC_ver202202_2024-03-03T20:03:52.800154+00:00 <br /> **URL**: https://masayu-a.github.io/NWJC/ <br /> **Description**:<br /> Converted programmatically from the dataset. See repo at https://github.com/Maltesaa/CSJ_and_NWJC_yomitan_freq_dict. Fork of https://github.com/forsakeninfinity/CEJC_yomichan_freq_dict <br /> |
 | Anime & J-drama | 99999 | **Revision**: anime.frequency <br /> |
 | VNs Freq | 85374 | **Revision**: frequency2019 <br /> |
 | Narou Freq | 49269 | **Revision**: frequency1 <br /> |
+| 話し言葉 CSJ | 42542 | **Revision**: CSJ_ver201803_2024-03-03T20:04:01.044705+00:00 <br /> **URL**: https://clrd.ninjal.ac.jp/csj/en/index.html <br /> **Description**:<br /> Converted programmatically from the dataset. See repo at https://github.com/Maltesaa/CSJ_and_NWJC_yomitan_freq_dict. Fork of https://github.com/forsakeninfinity/CEJC_yomichan_freq_dict <br /> |
 | VN Freq | 35058 | **Revision**: frequency1 <br /> |
 | Conversation Corpus | 29528 | **Revision**: CEJC_ver202209_2023-06-22T11:04:44.335323+00:00 <br /> **URL**: https://www2.ninjal.ac.jp/conversation/cejc/cejc-wc.html <br /> **Description**:<br /> Converted programmatically from the dataset. See repo at https://github.com/forsakeninfinity/CEJC_yomichan_freq_dict <br /> |
 
@@ -104,6 +106,7 @@ Yomitan options page.
 | 対義語辞典オンライン | 13965 | **Revision**: taigigo_240207 <br /> **Attribution**: taigigo.jitenon.jp <br /> |
 | 類語辞典オンライン | 12151 | **Revision**: ruigo_240209 <br /> **Attribution**: ruigo.jitenon.jp <br /> |
 | 故事・ことわざ・慣用句オンライン | 8513 | **Revision**: jitenon-kotowaza;2023-05-15 <br /> **URL**: https://kotowaza.jitenon.jp/ <br /> **Attribution**: © 2014-2023  故事・ことわざ・慣用句辞典オンライン <br /> |
+| 漢字でGo! [2024-03-04] | 7866 | **Author**: Marv <br /> **Revision**: 2024-03-04 <br /> **URL**: https://github.com/MarvNC/kanjidego-yomitan-anki <br /> **Attribution**: https://formidi.github.io/KanzideGoFAQ/<br />https://w.atwiki.jp/kanjidego/ <br /> **Description**:<br /> From the Kanji de Go! unofficial wiki.<br />Built with https://github.com/MarvNC/yomichan-dict-builder <br /> |
 | 四字熟語辞典オンライン | 7782 | **Revision**: jitenon-yoji;2023-05-14 <br /> **URL**: https://yoji.jitenon.jp/ <br /> **Attribution**: © 2012-2023  四字熟語辞典オンライン <br /> |
 | 学研 四字熟語辞典 | 5484 | **Author**: ッツ <br /> **Revision**: gakken_yojijukugo;2021-07-12 <br /> **URL**: https://dictionary.goo.ne.jp <br /> **Attribution**: 編集：学研<br /><br />© Gakken<br />https://hon.gakken.jp <br /> **Description**:<br /> 難解な四字熟語も理解できるように、また、手軽に調べられるように、四字熟語を広く捉え約2700項目を収録。文学作品の用例が豊富で、注記や類義語、対義語も充実。検定試験やクロスワードにも使えます。 <br /> |
 | 日本語俗語辞書 | 4354 | **Author**: Kartoffel <br /> **Revision**: 1 <br /> **Attribution**: http://zokugo-dict.com/ <br /> **Description**:<br /> I'll only say anything in the presence of my advocate <br /> |
